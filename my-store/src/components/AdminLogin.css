@@ -1,0 +1,95 @@
+/* General styling for the body */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full screen height */
+  background: linear-gradient(135deg, #f2f2f2, #e6e6e6); /* Soft gradient background */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Centering the form container */
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.auth-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.auth-card:hover {
+  transform: translateY(-5px); /* Add a subtle hover effect */
+}
+
+/* Heading styling */
+h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05); /* Subtle hover effect */
+}
+
+.no-account, .have-account {
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.link {
+  color: #007bff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

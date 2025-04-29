@@ -1,0 +1,128 @@
+/* src/components/AdminDashboard.css */
+
+/* Main container for Admin Dashboard */
+.admin-dashboard {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .admin-dashboard h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .admin-dashboard h2 {
+    color: #444;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-dashboard div {
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-dashboard input,
+  .admin-dashboard textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .admin-dashboard input:focus,
+  .admin-dashboard textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .admin-dashboard button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admin-dashboard button:hover {
+    background-color: #45a049;
+  }
+  
+  .admin-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+    width: 80%;
+    max-width: 1000px;
+  }
+  
+  .admin-dashboard li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .admin-dashboard li:hover {
+    transform: scale(1.02);
+  }
+  
+  .admin-dashboard li h3 {
+    margin: 0;
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .admin-dashboard li p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .admin-dashboard li img {
+    max-width: 150px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .admin-dashboard button {
+    margin-top: 10px;
+  }
+  
+  .admin-dashboard button:hover {
+    opacity: 0.8;
+  }
+  
+  .admin-dashboard p.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  

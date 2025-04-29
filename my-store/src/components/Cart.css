@@ -1,0 +1,190 @@
+/* Cart Container */
+.cart-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.cart-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Empty Cart */
+.empty-cart {
+  font-size: 18px;
+  color: #777;
+}
+
+/* Cart Items */
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Individual Cart Item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Product Image */
+.cart-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+/* Cart Details */
+.cart-details {
+  flex: 1;
+  margin-left: 15px;
+  text-align: left;
+}
+
+/* Product Name */
+.cart-details h3 {
+  font-size: 18px;
+  margin: 0 0 5px 0;
+}
+
+/* Price & Quantity */
+.cart-details p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.quantity-controls button {
+  background: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.quantity-controls button:hover {
+  background: #bbb;
+}
+
+.quantity-controls span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Remove Button */
+.remove-button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.remove-button:hover {
+  background: #cc0000;
+}
+
+/* Checkout Button */
+.checkout-button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: 0.2s;
+}
+
+.checkout-button:hover {
+  background: #218838;
+}
+
+/* Error Message */
+.error {
+  color: #d9534f;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.payment-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.address-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.confirm-button {
+  background: green;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cancel-button {
+  background: red;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

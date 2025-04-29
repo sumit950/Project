@@ -1,0 +1,75 @@
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c3e50;
+  color: white;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Side Panel Styles */
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background: #34495e;
+  color: white;
+  transition: left 0.3s ease;
+  padding-top: 20px;
+}
+
+.side-panel.open {
+  left: 0;
+}
+
+/* Side Panel Logo */
+.side-panel-logo {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px 0;
+  cursor: pointer;
+  background: #2c3e50;
+  width: 100%;
+  color: white;
+}
+
+/* Close Button */
+.close-btn {
+  text-align: right;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Navigation List */
+.side-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-panel ul li {
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.2s;
+}
+
+.side-panel ul li:hover {
+  background: #1abc9c;
+}
+
+/* Icons */
+.icon {
+  font-size: 18px;
+}

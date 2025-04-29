@@ -1,0 +1,80 @@
+.booking-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .booking-container h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .time-slot-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .time-slot {
+    padding: 10px 15px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .time-slot:hover {
+    background: #388e3c;
+  }
+  
+  .time-slot:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .input-container input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .book-btn {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .book-btn:hover {
+    background: #0056b3;
+  }
+  

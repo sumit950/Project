@@ -1,0 +1,65 @@
+/* Side Panel - Hidden by Default */
+.side-panel {
+  position: fixed;
+  top: 0;
+  left: -300px; /* Hidden initially */
+  width: 300px;
+  height: 100%;
+  background: #222;
+  color: white;
+  transition: left 0.3s ease-in-out;
+  padding-top: 60px;
+  z-index: 1000;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* When Open, Move It Into View */
+.side-panel.open {
+  left: 0;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 1.8rem;
+  color: white;
+}
+
+.close-btn:hover {
+  color: #f04;
+}
+
+/* Side Panel Navigation */
+.side-panel ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-panel ul li {
+  padding: 15px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background 0.3s;
+  font-size: 1.2rem;
+}
+
+.side-panel ul li:hover {
+  background: #333;
+}
+
+/* Icons */
+.icon {
+  margin-right: 12px;
+  font-size: 1.4rem;
+}
+
+/* Overlay Effect */
+@media (max-width: 768px) {
+  .side-panel {
+    width: 250px;
+  }
+}

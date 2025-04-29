@@ -1,0 +1,102 @@
+/* Payment.css */
+
+.payment-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.payment-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.payment-method {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.payment-method:hover,
+.payment-method.active {
+  background: #007bff;
+  color: white;
+  border-color: #007bff;
+}
+
+.payment-form {
+  margin-top: 20px;
+}
+
+.StripeElement {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.gpay-section {
+  text-align: center;
+}
+
+.gpay-qr {
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+.gpay-section input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.payment-button {
+  width: 100%;
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.payment-button:hover {
+  background: #218838;
+}
+
+.payment-error {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.payment-success {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
